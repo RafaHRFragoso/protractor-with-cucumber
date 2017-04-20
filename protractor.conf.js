@@ -14,14 +14,18 @@ exports.config = {
    //'features/*.feature'
    'features/*.feature'
  ],
-
   cucumberOpts: {
     // require: 'features/step_definitions/*.js',
+    tags: [
+        "@runThis",
+        "@runThat",
+        "~@ignoreThis"
+      ],
     require: 'steps/*.step.js',
     tags: false,
     format: ['json:results.json', 'pretty'],
     profile: false,
-    'no-source': true
+    'no-source': true,
   },
 
   beforeLaunch: function() {

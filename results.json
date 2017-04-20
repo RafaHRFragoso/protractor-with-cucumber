@@ -5,7 +5,7 @@
       {
         "id": "running-cucumber-with-protractor;protractor-and-cucumber-test",
         "keyword": "Scenario",
-        "line": 6,
+        "line": 7,
         "name": "Protractor and Cucumber Test",
         "steps": [
           {
@@ -14,9 +14,9 @@
             "name": "I go to \"https://angularjs.org/\"",
             "result": {
               "status": "passed",
-              "duration": 3320559
+              "duration": 2531529
             },
-            "line": 7,
+            "line": 8,
             "match": {
               "location": "/Users/cassioalves/Documents/protractor-with-cucumber/steps/todo.step.js:12"
             }
@@ -27,11 +27,11 @@
             "name": "I add \"Be Awesome\" in the task field",
             "result": {
               "status": "passed",
-              "duration": 6178314
+              "duration": 4813714
             },
-            "line": 8,
+            "line": 9,
             "match": {
-              "location": "/Users/cassioalves/Documents/protractor-with-cucumber/steps/todo.step.js:17"
+              "location": "/Users/cassioalves/Documents/protractor-with-cucumber/steps/todo.step.js:16"
             }
           },
           {
@@ -40,11 +40,11 @@
             "name": "I click the add button",
             "result": {
               "status": "passed",
-              "duration": 1280664
+              "duration": 1281733
             },
-            "line": 9,
+            "line": 10,
             "match": {
-              "location": "/Users/cassioalves/Documents/protractor-with-cucumber/steps/todo.step.js:22"
+              "location": "/Users/cassioalves/Documents/protractor-with-cucumber/steps/todo.step.js:20"
             }
           },
           {
@@ -53,23 +53,33 @@
             "name": "I should see my new task in the list",
             "result": {
               "status": "passed",
-              "duration": 3870586452
+              "duration": 6262818401
             },
-            "line": 10,
+            "line": 11,
             "match": {
-              "location": "/Users/cassioalves/Documents/protractor-with-cucumber/steps/todo.step.js:27"
+              "location": "/Users/cassioalves/Documents/protractor-with-cucumber/steps/todo.step.js:24"
             }
           }
         ],
-        "tags": [],
+        "tags": [
+          {
+            "name": "@runThis",
+            "line": 1
+          }
+        ],
         "type": "scenario"
       }
     ],
     "id": "running-cucumber-with-protractor",
     "keyword": "Feature",
-    "line": 1,
+    "line": 2,
     "name": "Running Cucumber with Protractor",
-    "tags": [],
+    "tags": [
+      {
+        "name": "@runThis",
+        "line": 1
+      }
+    ],
     "uri": "/Users/cassioalves/Documents/protractor-with-cucumber/features/todo.feature"
   }
 ]
